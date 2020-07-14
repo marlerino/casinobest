@@ -1,0 +1,1 @@
+<p>Set URL path settings for the VegasHero games. <span style="color:red;font-weight:bold;">Important:</span> Changing these settings can break your existing game links. Use these options with care!</p>

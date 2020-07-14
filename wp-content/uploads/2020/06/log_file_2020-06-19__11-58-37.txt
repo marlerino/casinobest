@@ -1,0 +1,55 @@
+
+---Downloaded files---
+The import files for: Mercury Demo 2 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://casinobest.ca
+Data file = /home/admin/web/casinobest.ca/public_html/wp-content/uploads/2020/06/demo-content-import-file_2020-06-19__11-58-37.xml
+Widget file = /home/admin/web/casinobest.ca/public_html/wp-content/uploads/2020/06/demo-widgets-import-file_2020-06-19__11-58-37.json
+Customizer file = /home/admin/web/casinobest.ca/public_html/wp-content/uploads/2020/06/demo-customizer-import-file_2020-06-19__11-58-37.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+#Aces Casinos-4 - New Casinos - Imported
+#5 Sidebar Block [Mercury] - Recent News - Imported
+
+Homepage Central Block : 
+
+#2 Homepage Block [Mercury] - No Title - Imported
+#Aces Casinos-1 - Casinos - Imported
+#6 Homepage Block [Mercury] - Gambling Technology - Imported
+#1 Homepage Block [Mercury] - No Title - Imported
+#3 Homepage Block [Mercury] - Poker News - Imported
+#Aces Games-1 - Games - Imported
+#4 Homepage Block [Mercury] - Video - Imported
+#7 Homepage Block [Mercury] - Betting News - Imported
+#Aces Bonuses Homepage - Bonuses - Imported
+Text - No Title - Imported
+#Aces Casinos-5 - Top Casinos - Imported
+
+Homepage Right Sidebar : 
+
+#5 Sidebar Block [Mercury] - Gambling News - Imported
+
+Footer Center : 
+
+Text - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

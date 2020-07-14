@@ -1,0 +1,1019 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Aces 2.3.0\n"
+"POT-Creation-Date: 2020-04-26 17:04+0200\n"
+"PO-Revision-Date: 2019-02-02 18:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: Space-Themes.com <space.themes.com@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_html_e;_ex;_n;_nx;esc_attr__;"
+"esc_attr_e;esc_html;esc_attr\n"
+"X-Poedit-SearchPath-0: bonuses.php\n"
+"X-Poedit-SearchPath-1: games.php\n"
+"X-Poedit-SearchPath-2: index.php\n"
+"X-Poedit-SearchPath-3: settings\n"
+"X-Poedit-SearchPath-4: settings/index.php\n"
+"X-Poedit-SearchPath-5: casinos.php\n"
+"X-Poedit-SearchPath-6: settings/bonuses.php\n"
+"X-Poedit-SearchPath-7: settings/casinos.php\n"
+"X-Poedit-SearchPath-8: settings/games.php\n"
+"X-Poedit-SearchPath-9: functions\n"
+"X-Poedit-SearchPath-10: functions/geolocation.php\n"
+"X-Poedit-SearchPath-11: settings/geolocation.php\n"
+"X-Poedit-SearchPath-12: shortcodes\n"
+"X-Poedit-SearchPath-13: shortcodes/bonuses-shortcode-1.php\n"
+"X-Poedit-SearchPath-14: shortcodes/cards-shortcode.php\n"
+"X-Poedit-SearchPath-15: shortcodes/casinos-shortcode-1.php\n"
+"X-Poedit-SearchPath-16: shortcodes/casinos-shortcode-2.php\n"
+"X-Poedit-SearchPath-17: shortcodes/casinos-shortcode-3.php\n"
+"X-Poedit-SearchPath-18: shortcodes/casinos-shortcode-4.php\n"
+"X-Poedit-SearchPath-19: shortcodes/casinos-shortcode-5.php\n"
+"X-Poedit-SearchPath-20: shortcodes/casinos-shortcode-6.php\n"
+"X-Poedit-SearchPath-21: shortcodes/casinos-shortcode-7.php\n"
+"X-Poedit-SearchPath-22: shortcodes/casinos-shortcode-8.php\n"
+"X-Poedit-SearchPath-23: shortcodes/games-shortcode-1.php\n"
+"X-Poedit-SearchPath-24: shortcodes/games-shortcode-2.php\n"
+"X-Poedit-SearchPath-25: shortcodes/games-shortcode-3.php\n"
+"X-Poedit-SearchPath-26: shortcodes/games-shortcode-4.php\n"
+"X-Poedit-SearchPath-27: widgets\n"
+"X-Poedit-SearchPath-28: widgets/bonuses-home.php\n"
+"X-Poedit-SearchPath-29: widgets/casinos-widget-1.php\n"
+"X-Poedit-SearchPath-30: widgets/casinos-widget-2.php\n"
+"X-Poedit-SearchPath-31: widgets/casinos-widget-3.php\n"
+"X-Poedit-SearchPath-32: widgets/casinos-widget-4.php\n"
+"X-Poedit-SearchPath-33: widgets/casinos-widget-5.php\n"
+"X-Poedit-SearchPath-34: widgets/casinos-widget-6.php\n"
+"X-Poedit-SearchPath-35: widgets/casinos-widget-7.php\n"
+"X-Poedit-SearchPath-36: widgets/casinos-widget-8.php\n"
+"X-Poedit-SearchPath-37: widgets/casinos-widget-9.php\n"
+"X-Poedit-SearchPath-38: widgets/games-sidebar.php\n"
+"X-Poedit-SearchPath-39: widgets/games-widget-1.php\n"
+"X-Poedit-SearchPath-40: widgets/games-widget-2.php\n"
+"X-Poedit-SearchPath-41: widgets/games-widget-3.php\n"
+
+#: bonuses.php:14 casinos.php:1223 settings/index.php:70
+msgid "Bonuses"
+msgstr ""
+
+#: bonuses.php:22 bonuses.php:24 casinos.php:22 casinos.php:24 games.php:22
+#: games.php:24
+msgid "Add New"
+msgstr ""
+
+#: bonuses.php:23 casinos.php:23 games.php:23
+msgid "Edit Item"
+msgstr ""
+
+#: bonuses.php:25 casinos.php:25 games.php:25
+msgid "View Item"
+msgstr ""
+
+#: bonuses.php:27
+msgid "bonus"
+msgstr ""
+
+#: bonuses.php:57 casinos.php:57 games.php:57
+msgid "Categories"
+msgstr ""
+
+#: bonuses.php:65 casinos.php:65 casinos.php:105 casinos.php:144
+#: casinos.php:183 casinos.php:222 casinos.php:261 casinos.php:300
+#: casinos.php:339 casinos.php:378 casinos.php:417 games.php:65 games.php:105
+msgid "Find Taxonomy"
+msgstr ""
+
+#: bonuses.php:66 casinos.php:66 casinos.php:106 casinos.php:145
+#: casinos.php:184 casinos.php:223 casinos.php:262 casinos.php:301
+#: casinos.php:340 casinos.php:379 casinos.php:418 games.php:66 games.php:106
+msgid "All "
+msgstr ""
+
+#: bonuses.php:67 casinos.php:67 casinos.php:107 casinos.php:146
+#: casinos.php:185 casinos.php:224 casinos.php:263 casinos.php:302
+#: casinos.php:341 casinos.php:380 casinos.php:419 games.php:67 games.php:107
+msgid "Parent Taxonomy"
+msgstr ""
+
+#: bonuses.php:68 casinos.php:68 casinos.php:108 casinos.php:147
+#: casinos.php:186 casinos.php:225 casinos.php:264 casinos.php:303
+#: casinos.php:342 casinos.php:381 casinos.php:420 games.php:68 games.php:108
+msgid "Parent Taxonomy:"
+msgstr ""
+
+#: bonuses.php:69 casinos.php:69 casinos.php:109 casinos.php:148
+#: casinos.php:187 casinos.php:226 casinos.php:265 casinos.php:304
+#: casinos.php:343 casinos.php:382 casinos.php:421 games.php:69 games.php:109
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: bonuses.php:70 casinos.php:70 casinos.php:110 casinos.php:149
+#: casinos.php:188 casinos.php:227 casinos.php:266 casinos.php:305
+#: casinos.php:344 casinos.php:383 casinos.php:422 games.php:70 games.php:110
+msgid "View Taxonomy"
+msgstr ""
+
+#: bonuses.php:71 casinos.php:71 casinos.php:111 casinos.php:150
+#: casinos.php:189 casinos.php:228 casinos.php:267 casinos.php:306
+#: casinos.php:345 casinos.php:384 casinos.php:423 games.php:71 games.php:111
+msgid "Update Taxonomy"
+msgstr ""
+
+#: bonuses.php:72 casinos.php:72 casinos.php:112 casinos.php:151
+#: casinos.php:190 casinos.php:229 casinos.php:268 casinos.php:307
+#: casinos.php:346 casinos.php:385 casinos.php:424 games.php:72 games.php:112
+msgid "Add New Taxonomy"
+msgstr ""
+
+#: bonuses.php:73 casinos.php:73 casinos.php:113 casinos.php:152
+#: casinos.php:191 casinos.php:230 casinos.php:269 casinos.php:308
+#: casinos.php:347 casinos.php:386 casinos.php:425 games.php:73 games.php:113
+msgid "Taxonomy"
+msgstr ""
+
+#: bonuses.php:128 casinos.php:789 games.php:294
+msgid "Additional information"
+msgstr ""
+
+#: bonuses.php:166 casinos.php:830 games.php:330
+msgid "Short description"
+msgstr ""
+
+#: bonuses.php:173 casinos.php:844 games.php:337
+msgid "External URL for the"
+msgstr ""
+
+#: bonuses.php:173 bonuses.php:180 shortcodes/bonuses-shortcode-1.php:114
+#: widgets/bonuses-home.php:113
+msgid "Get Bonus"
+msgstr ""
+
+#: bonuses.php:173 bonuses.php:180 casinos.php:844 casinos.php:851
+#: casinos.php:865 games.php:337 games.php:344 games.php:358
+msgid "button"
+msgstr ""
+
+#: bonuses.php:180 casinos.php:851 casinos.php:865 games.php:344 games.php:358
+msgid "Custom title for the"
+msgstr ""
+
+#: bonuses.php:187 casinos.php:858 games.php:351
+msgid "Notification under the button"
+msgstr ""
+
+#: bonuses.php:194
+msgid "Bonus Code:"
+msgstr ""
+
+#: bonuses.php:201
+msgid "Valid until the date:"
+msgstr ""
+
+#: bonuses.php:208
+msgid "Dark Style"
+msgstr ""
+
+#: bonuses.php:268 casinos.php:14 games.php:540 settings/index.php:68
+msgid "Casinos"
+msgstr ""
+
+#: bonuses.php:310 games.php:582
+msgid "No casinos"
+msgstr ""
+
+#: casinos.php:27
+msgid "casino"
+msgstr ""
+
+#: casinos.php:97
+msgid "Software"
+msgstr ""
+
+#: casinos.php:136
+msgid "Deposit Methods"
+msgstr ""
+
+#: casinos.php:175
+msgid "Withdrawal Methods"
+msgstr ""
+
+#: casinos.php:214
+msgid "Withdrawal Limits"
+msgstr ""
+
+#: casinos.php:253
+msgid "Restricted Countries"
+msgstr ""
+
+#: casinos.php:292
+msgid "Licences"
+msgstr ""
+
+#: casinos.php:331
+msgid "Languages"
+msgstr ""
+
+#: casinos.php:370
+msgid "Currencies"
+msgstr ""
+
+#: casinos.php:409
+msgid "Devices"
+msgstr ""
+
+#: casinos.php:686
+msgid "Pros/Cons of the casino"
+msgstr ""
+
+#: casinos.php:723 games.php:228
+msgid "Pros"
+msgstr ""
+
+#: casinos.php:739 games.php:244
+msgid "Cons"
+msgstr ""
+
+#: casinos.php:837
+msgid "Promotional description"
+msgstr ""
+
+#: casinos.php:844 casinos.php:851 games.php:337 games.php:344
+#: shortcodes/casinos-shortcode-1.php:140
+#: shortcodes/casinos-shortcode-3.php:136
+#: shortcodes/casinos-shortcode-4.php:142
+#: shortcodes/casinos-shortcode-5.php:150
+#: shortcodes/casinos-shortcode-6.php:213
+#: shortcodes/casinos-shortcode-6.php:361
+#: shortcodes/casinos-shortcode-7.php:163
+#: shortcodes/casinos-shortcode-8.php:162 shortcodes/games-shortcode-1.php:159
+#: shortcodes/games-shortcode-2.php:238 shortcodes/games-shortcode-2.php:377
+#: shortcodes/games-shortcode-3.php:161 shortcodes/games-shortcode-4.php:158
+#: widgets/casinos-widget-1.php:114 widgets/casinos-widget-3.php:104
+#: widgets/casinos-widget-5.php:126 widgets/casinos-widget-6.php:127
+#: widgets/casinos-widget-7.php:154 widgets/casinos-widget-7.php:300
+#: widgets/casinos-widget-8.php:135 widgets/casinos-widget-9.php:142
+#: widgets/games-sidebar.php:104 widgets/games-widget-1.php:110
+#: widgets/games-widget-2.php:131 widgets/games-widget-2.php:268
+#: widgets/games-widget-3.php:112
+msgid "Play Now"
+msgstr ""
+
+#: casinos.php:865 games.php:358 shortcodes/casinos-shortcode-4.php:162
+#: shortcodes/casinos-shortcode-5.php:160
+#: shortcodes/casinos-shortcode-6.php:223
+#: shortcodes/casinos-shortcode-6.php:371
+#: shortcodes/casinos-shortcode-7.php:173
+#: shortcodes/casinos-shortcode-8.php:172 shortcodes/games-shortcode-2.php:258
+#: shortcodes/games-shortcode-2.php:397 shortcodes/games-shortcode-3.php:181
+#: widgets/casinos-widget-5.php:146 widgets/casinos-widget-6.php:137
+#: widgets/casinos-widget-7.php:164 widgets/casinos-widget-7.php:310
+#: widgets/casinos-widget-8.php:145 widgets/casinos-widget-9.php:152
+#: widgets/games-widget-2.php:151 widgets/games-widget-2.php:288
+#: widgets/games-widget-3.php:132
+msgid "Read Review"
+msgstr ""
+
+#: casinos.php:925
+msgid "Casino Ratings"
+msgstr ""
+
+#: casinos.php:966 settings/casinos.php:543
+msgid "Trust & Fairness"
+msgstr ""
+
+#: casinos.php:972 casinos.php:1008 casinos.php:1044 casinos.php:1080
+#: games.php:453
+msgid "1"
+msgstr ""
+
+#: casinos.php:976 casinos.php:1012 casinos.php:1048 casinos.php:1084
+#: games.php:457
+msgid "2"
+msgstr ""
+
+#: casinos.php:980 casinos.php:1016 casinos.php:1052 casinos.php:1088
+#: games.php:461
+msgid "3"
+msgstr ""
+
+#: casinos.php:984 casinos.php:1020 casinos.php:1056 casinos.php:1092
+#: games.php:465
+msgid "4"
+msgstr ""
+
+#: casinos.php:988 casinos.php:1024 casinos.php:1060 casinos.php:1096
+#: games.php:469
+msgid "5"
+msgstr ""
+
+#: casinos.php:1002 settings/casinos.php:557
+msgid "Games & Software"
+msgstr ""
+
+#: casinos.php:1038 settings/casinos.php:571
+msgid "Bonuses & Promotions"
+msgstr ""
+
+#: casinos.php:1074 settings/casinos.php:585
+msgid "Customer Support"
+msgstr ""
+
+#: casinos.php:1177 games.php:14 settings/index.php:69
+msgid "Games"
+msgstr ""
+
+#: casinos.php:1211
+msgid "No games"
+msgstr ""
+
+#: casinos.php:1257
+msgid "No bonuses"
+msgstr ""
+
+#: casinos.php:1271 casinos.php:1303 casinos.php:1348 casinos.php:1380
+#: casinos.php:1425 casinos.php:1457 casinos.php:1502 casinos.php:1534
+#: casinos.php:1725 casinos.php:1757 casinos.php:1802 casinos.php:1834
+#: casinos.php:1879 casinos.php:1911 casinos.php:1956 casinos.php:1988
+#: games.php:618 games.php:650
+msgid "Logo"
+msgstr ""
+
+#: casinos.php:1276 casinos.php:1315 casinos.php:1353 casinos.php:1392
+#: casinos.php:1430 casinos.php:1469 casinos.php:1507 casinos.php:1546
+#: casinos.php:1730 casinos.php:1769 casinos.php:1807 casinos.php:1846
+#: casinos.php:1884 casinos.php:1923 casinos.php:1961 casinos.php:2000
+#: games.php:623 games.php:662
+msgid "Add Logo"
+msgstr ""
+
+#: casinos.php:1277 casinos.php:1316 casinos.php:1354 casinos.php:1393
+#: casinos.php:1431 casinos.php:1470 casinos.php:1508 casinos.php:1547
+#: casinos.php:1731 casinos.php:1770 casinos.php:1808 casinos.php:1847
+#: casinos.php:1885 casinos.php:1924 casinos.php:1962 casinos.php:2001
+#: games.php:624 games.php:663
+msgid "Remove Logo"
+msgstr ""
+
+#: casinos.php:1579 casinos.php:1609
+msgid "Country code"
+msgstr ""
+
+#: casinos.php:1583 casinos.php:1616
+msgid "For example, for the"
+msgstr ""
+
+#: casinos.php:1583 casinos.php:1616
+msgid "United States"
+msgstr ""
+
+#: casinos.php:1583 casinos.php:1616
+msgid "US"
+msgstr ""
+
+#: casinos.php:1583 casinos.php:1616
+msgid "code"
+msgstr ""
+
+#: casinos.php:1583 casinos.php:1616
+msgid "ISO 3166-1 alpha-2 country codes"
+msgstr ""
+
+#: casinos.php:1648 casinos.php:1680
+msgid "Flag"
+msgstr ""
+
+#: casinos.php:1653 casinos.php:1692
+msgid "Add Flag"
+msgstr ""
+
+#: casinos.php:1654 casinos.php:1693
+msgid "Remove Flag"
+msgstr ""
+
+#: casinos.php:2029 games.php:691
+msgid "Background Image"
+msgstr ""
+
+#: functions/geolocation.php:52 functions/geolocation.php:56
+#: functions/geolocation.php:62
+msgid "Players from"
+msgstr ""
+
+#: functions/geolocation.php:52
+msgid "not accepted"
+msgstr ""
+
+#: functions/geolocation.php:56 functions/geolocation.php:62
+msgid "accepted"
+msgstr ""
+
+#: functions/geolocation.php:68
+msgid "Service is unavailable or invalid API key."
+msgstr ""
+
+#: games.php:27 shortcodes/casinos-shortcode-4.php:210
+#: widgets/casinos-widget-5.php:194
+msgid "game"
+msgstr ""
+
+#: games.php:97
+msgid "Vendors"
+msgstr ""
+
+#: games.php:191
+msgid "Pros/Cons of the game"
+msgstr ""
+
+#: games.php:415
+msgid "Game Rating"
+msgstr ""
+
+#: games.php:448
+msgid "Rating"
+msgstr ""
+
+#: index.php:209
+msgid "Upload image"
+msgstr ""
+
+#: index.php:221
+msgid "Remove background image"
+msgstr ""
+
+#: settings/bonuses.php:11 settings/casinos.php:11 settings/games.php:11
+msgid "Titles"
+msgstr ""
+
+#: settings/bonuses.php:18 settings/casinos.php:18 settings/games.php:18
+msgid "Slugs"
+msgstr ""
+
+#: settings/bonuses.php:25 settings/casinos.php:32 settings/games.php:25
+msgid "Other settings"
+msgstr ""
+
+#: settings/bonuses.php:35 settings/casinos.php:42 settings/games.php:35
+msgid "Here you can change the default titles."
+msgstr ""
+
+#: settings/bonuses.php:43 settings/casinos.php:50 settings/games.php:43
+msgid "Here you can change the default slugs."
+msgstr ""
+
+#: settings/bonuses.php:47 settings/casinos.php:54 settings/games.php:47
+msgid "WARNING:"
+msgstr ""
+
+#: settings/bonuses.php:48
+msgid ""
+"Slugs at custom post types (e.g. Bonuses) and custom taxonomies (e.g. Bonus "
+"Categories) cannot be the same."
+msgstr ""
+
+#: settings/bonuses.php:50 settings/casinos.php:57 settings/games.php:50
+msgid ""
+"After saving these settings, please, go to &quot;Settings&quot; - &quot;"
+msgstr ""
+
+#: settings/bonuses.php:50 settings/casinos.php:57 settings/games.php:50
+msgid "Permalinks"
+msgstr ""
+
+#: settings/bonuses.php:50 settings/casinos.php:57 settings/games.php:50
+msgid "&quot; and click the &quot;Save Changes&quot; button."
+msgstr ""
+
+#: settings/bonuses.php:50 settings/casinos.php:57 settings/games.php:50
+msgid "Only after this action, new slugs will work."
+msgstr ""
+
+#: settings/bonuses.php:59
+msgid "Other settings for bonuses."
+msgstr ""
+
+#: settings/bonuses.php:74
+msgid "The title of the &quot;Bonuses&quot; custom post type"
+msgstr ""
+
+#: settings/bonuses.php:90
+msgid "Default &quot;Bonuses&quot;"
+msgstr ""
+
+#: settings/bonuses.php:98
+msgid "The title of the &quot;Bonus Categories&quot; custom taxonomy"
+msgstr ""
+
+#: settings/bonuses.php:114 settings/casinos.php:129 settings/games.php:114
+msgid "Default &quot;Categories&quot;"
+msgstr ""
+
+#: settings/bonuses.php:128
+msgid "The slug of the &quot;Bonuses&quot; custom post type"
+msgstr ""
+
+#: settings/bonuses.php:143
+msgid "The slug of the &quot;Bonus Categories&quot; custom taxonomy"
+msgstr ""
+
+#: settings/bonuses.php:161 settings/casinos.php:527 settings/games.php:200
+msgid "Default"
+msgstr ""
+
+#: settings/bonuses.php:177
+msgid "The global title of the &quot;Get Bonus&quot; button"
+msgstr ""
+
+#: settings/bonuses.php:193
+msgid "Default &quot;Get Bonus&quot;"
+msgstr ""
+
+#: settings/casinos.php:25
+msgid "Rating titles"
+msgstr ""
+
+#: settings/casinos.php:55
+msgid ""
+"Slugs at custom post types (e.g. Casinos) and custom taxonomies (e.g. "
+"Casino Categories) cannot be the same."
+msgstr ""
+
+#: settings/casinos.php:66
+msgid "Here you can change the default titles of the ratings."
+msgstr ""
+
+#: settings/casinos.php:74
+msgid "Other settings for casinos."
+msgstr ""
+
+#: settings/casinos.php:89
+msgid "The title of the &quot;Casinos&quot; custom post type"
+msgstr ""
+
+#: settings/casinos.php:105
+msgid "Default &quot;Casinos&quot;"
+msgstr ""
+
+#: settings/casinos.php:113
+msgid "The title of the &quot;Casino Categories&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:137
+msgid "The title of the &quot;Software&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:153
+msgid "Default &quot;Software&quot;"
+msgstr ""
+
+#: settings/casinos.php:161
+msgid "The title of the &quot;Deposit Methods&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:177
+msgid "Default &quot;Deposit Methods&quot;"
+msgstr ""
+
+#: settings/casinos.php:185
+msgid "The title of the &quot;Withdrawal Methods&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:201
+msgid "Default &quot;Withdrawal Methods&quot;"
+msgstr ""
+
+#: settings/casinos.php:209
+msgid "The title of the &quot;Withdrawal Limits&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:225
+msgid "Default &quot;Withdrawal Limits&quot;"
+msgstr ""
+
+#: settings/casinos.php:233
+msgid "The title of the &quot;Restricted Countries&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:249
+msgid "Default &quot;Restricted Countries&quot;"
+msgstr ""
+
+#: settings/casinos.php:257
+msgid "The title of the &quot;Licences&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:273
+msgid "Default &quot;Licences&quot;"
+msgstr ""
+
+#: settings/casinos.php:281
+msgid "The title of the &quot;Languages&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:297
+msgid "Default &quot;Languages&quot;"
+msgstr ""
+
+#: settings/casinos.php:305
+msgid "The title of the &quot;Currencies&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:321
+msgid "Default &quot;Currencies&quot;"
+msgstr ""
+
+#: settings/casinos.php:329
+msgid "The title of the &quot;Devices&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:345
+msgid "Default &quot;Devices&quot;"
+msgstr ""
+
+#: settings/casinos.php:359
+msgid "The slug of the &quot;Casinos&quot; custom post type"
+msgstr ""
+
+#: settings/casinos.php:374
+msgid "The slug of the &quot;Casino Categories&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:389
+msgid "The slug of the &quot;Software&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:404
+msgid "The slug of the &quot;Deposit Methods&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:419
+msgid "The slug of the &quot;Withdrawal Methods&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:434
+msgid "The slug of the &quot;Withdrawal Limits&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:449
+msgid "The slug of the &quot;Restricted Countries&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:464
+msgid "The slug of the &quot;Licences&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:479
+msgid "The slug of the &quot;Languages&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:494
+msgid "The slug of the &quot;Currencies&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:509
+msgid "The slug of the &quot;Devices&quot; custom taxonomy"
+msgstr ""
+
+#: settings/casinos.php:599
+msgid "Overall Rating"
+msgstr ""
+
+#: settings/casinos.php:630 settings/games.php:216
+msgid "The global title of the &quot;Play Now&quot; button"
+msgstr ""
+
+#: settings/casinos.php:646 settings/games.php:232
+msgid "Default &quot;Play Now&quot;"
+msgstr ""
+
+#: settings/casinos.php:654 settings/games.php:240
+msgid "The global title of the &quot;Read Review&quot; button"
+msgstr ""
+
+#: settings/casinos.php:670 settings/games.php:256
+msgid "Default &quot;Read Review&quot;"
+msgstr ""
+
+#: settings/casinos.php:678 settings/games.php:264
+msgid "The global title of the &quot;Pros&quot; block"
+msgstr ""
+
+#: settings/casinos.php:694 settings/games.php:280
+msgid "Default &quot;Pros&quot;"
+msgstr ""
+
+#: settings/casinos.php:702 settings/games.php:288
+msgid "The global title of the &quot;Cons&quot; block"
+msgstr ""
+
+#: settings/casinos.php:718 settings/games.php:304
+msgid "Default &quot;Cons&quot;"
+msgstr ""
+
+#: settings/games.php:48
+msgid ""
+"Slugs at custom post types (e.g. Games) and custom taxonomies (e.g. Game "
+"Categories) cannot be the same."
+msgstr ""
+
+#: settings/games.php:59
+msgid "Other settings for games."
+msgstr ""
+
+#: settings/games.php:74
+msgid "The title of the &quot;Games&quot; custom post type"
+msgstr ""
+
+#: settings/games.php:90
+msgid "Default &quot;Games&quot;"
+msgstr ""
+
+#: settings/games.php:98
+msgid "The title of the &quot;Game Categories&quot; custom taxonomy"
+msgstr ""
+
+#: settings/games.php:122
+msgid "The title of the &quot;Game Vendors&quot; custom taxonomy"
+msgstr ""
+
+#: settings/games.php:138
+msgid "Default &quot;Vendors&quot;"
+msgstr ""
+
+#: settings/games.php:152
+msgid "The slug of the &quot;Games&quot; custom post type"
+msgstr ""
+
+#: settings/games.php:167
+msgid "The slug of the &quot;Game Categories&quot; custom taxonomy"
+msgstr ""
+
+#: settings/games.php:182
+msgid "The slug of the &quot;Game Vendors&quot; custom taxonomy"
+msgstr ""
+
+#: settings/geolocation.php:11 settings/geolocation.php:49
+msgid "Enable geolocation"
+msgstr ""
+
+#: settings/geolocation.php:18 settings/geolocation.php:79
+msgid "API key"
+msgstr ""
+
+#: settings/geolocation.php:28
+msgid "DB-IP.com"
+msgstr ""
+
+#: settings/geolocation.php:28
+msgid "provides API for the geolocation service."
+msgstr ""
+
+#: settings/geolocation.php:28
+msgid "The Free API is limited to 1,000 daily requests."
+msgstr ""
+
+#: settings/geolocation.php:36
+msgid "For the free API, the key not required."
+msgstr ""
+
+#: settings/index.php:7 settings/index.php:8
+msgid "ACES Gambling"
+msgstr ""
+
+#: settings/index.php:29
+msgid "Settings Saved"
+msgstr ""
+
+#: settings/index.php:62
+msgid "2.3.0"
+msgstr ""
+
+#: settings/index.php:64
+msgid "ACES Gambling plugin by"
+msgstr ""
+
+#: settings/index.php:64
+msgid "https://space-themes.com/"
+msgstr ""
+
+#: settings/index.php:64
+msgid "Space-Themes.com"
+msgstr ""
+
+#: settings/index.php:71
+msgid "Geolocation"
+msgstr ""
+
+#: settings/index.php:77 settings/index.php:101
+msgid "Save Settings"
+msgstr ""
+
+#: shortcodes/bonuses-shortcode-1.php:155 widgets/bonuses-home.php:154
+msgid "Bonus Code"
+msgstr ""
+
+#: shortcodes/bonuses-shortcode-1.php:161 widgets/bonuses-home.php:160
+msgid "Valid Until:"
+msgstr ""
+
+#: shortcodes/casinos-shortcode-4.php:210 widgets/casinos-widget-5.php:194
+msgid "games"
+msgstr ""
+
+#: shortcodes/casinos-shortcode-6.php:247
+#: shortcodes/casinos-shortcode-6.php:395
+#: shortcodes/casinos-shortcode-7.php:197
+#: shortcodes/casinos-shortcode-8.php:236 shortcodes/games-shortcode-2.php:284
+#: shortcodes/games-shortcode-2.php:423 shortcodes/games-shortcode-3.php:207
+#: widgets/casinos-widget-7.php:188 widgets/casinos-widget-7.php:334
+#: widgets/casinos-widget-8.php:169 widgets/casinos-widget-9.php:216
+#: widgets/games-widget-2.php:177 widgets/games-widget-2.php:314
+#: widgets/games-widget-3.php:158
+msgid "/5"
+msgstr ""
+
+#: widgets/bonuses-home.php:10
+msgid "#Aces Bonuses Homepage"
+msgstr ""
+
+#: widgets/bonuses-home.php:11
+msgid "Bonuses widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/bonuses-home.php:228 widgets/casinos-widget-1.php:230
+#: widgets/casinos-widget-2.php:188 widgets/casinos-widget-3.php:180
+#: widgets/casinos-widget-4.php:192 widgets/casinos-widget-5.php:264
+#: widgets/casinos-widget-6.php:228 widgets/casinos-widget-7.php:423
+#: widgets/casinos-widget-8.php:259 widgets/casinos-widget-9.php:286
+#: widgets/games-sidebar.php:181 widgets/games-widget-1.php:204
+#: widgets/games-widget-2.php:406 widgets/games-widget-3.php:250
+msgid "Title:"
+msgstr ""
+
+#: widgets/bonuses-home.php:232 widgets/casinos-widget-1.php:234
+#: widgets/casinos-widget-3.php:184 widgets/casinos-widget-4.php:196
+#: widgets/games-sidebar.php:185 widgets/games-widget-1.php:208
+msgid "Use external link for the button"
+msgstr ""
+
+#: widgets/bonuses-home.php:234 widgets/casinos-widget-1.php:239
+#: widgets/casinos-widget-2.php:194 widgets/casinos-widget-3.php:186
+#: widgets/casinos-widget-4.php:198 widgets/casinos-widget-5.php:270
+#: widgets/casinos-widget-6.php:234 widgets/casinos-widget-8.php:269
+#: widgets/casinos-widget-9.php:296 widgets/games-sidebar.php:187
+#: widgets/games-widget-1.php:210 widgets/games-widget-3.php:260
+msgid "Number of items to show:"
+msgstr ""
+
+#: widgets/bonuses-home.php:237 widgets/casinos-widget-2.php:197
+#: widgets/casinos-widget-5.php:273 widgets/casinos-widget-6.php:237
+#: widgets/casinos-widget-7.php:433 widgets/casinos-widget-8.php:274
+#: widgets/casinos-widget-9.php:301 widgets/games-widget-1.php:213
+#: widgets/games-widget-2.php:416 widgets/games-widget-3.php:265
+msgid "Margin bottom for the block (in pixels):"
+msgstr ""
+
+#: widgets/bonuses-home.php:242 widgets/casinos-widget-1.php:247
+#: widgets/casinos-widget-2.php:202 widgets/casinos-widget-3.php:189
+#: widgets/casinos-widget-4.php:201 widgets/casinos-widget-5.php:278
+#: widgets/casinos-widget-6.php:242 widgets/casinos-widget-7.php:440
+#: widgets/casinos-widget-8.php:281 widgets/casinos-widget-9.php:308
+#: widgets/games-sidebar.php:190 widgets/games-widget-1.php:218
+#: widgets/games-widget-2.php:423 widgets/games-widget-3.php:272
+msgid "Category:"
+msgstr ""
+
+#: widgets/bonuses-home.php:244 widgets/casinos-widget-1.php:249
+#: widgets/casinos-widget-2.php:204 widgets/casinos-widget-3.php:191
+#: widgets/casinos-widget-4.php:203 widgets/casinos-widget-5.php:280
+#: widgets/casinos-widget-6.php:244 widgets/casinos-widget-7.php:442
+#: widgets/casinos-widget-8.php:283 widgets/casinos-widget-9.php:310
+#: widgets/games-sidebar.php:192 widgets/games-widget-1.php:220
+#: widgets/games-widget-2.php:425 widgets/games-widget-3.php:274
+msgid "All"
+msgstr ""
+
+#: widgets/casinos-widget-1.php:10
+msgid "#Aces Casinos-1"
+msgstr ""
+
+#: widgets/casinos-widget-1.php:11
+msgid "#1 Casinos widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-1.php:237
+msgid "Show big thumbnail"
+msgstr ""
+
+#: widgets/casinos-widget-1.php:242
+msgid "Value \"margin-bottom\" for the block (in pixels):"
+msgstr ""
+
+#: widgets/casinos-widget-2.php:10
+msgid "#Aces Casinos-2"
+msgstr ""
+
+#: widgets/casinos-widget-2.php:11
+msgid "#2 Casinos widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-2.php:192 widgets/casinos-widget-5.php:268
+#: widgets/casinos-widget-6.php:232 widgets/casinos-widget-7.php:429
+#: widgets/casinos-widget-8.php:265 widgets/casinos-widget-9.php:292
+#: widgets/games-widget-2.php:412 widgets/games-widget-3.php:256
+msgid "Use external link for the Url"
+msgstr ""
+
+#: widgets/casinos-widget-3.php:10
+msgid "#Aces Casinos-3"
+msgstr ""
+
+#: widgets/casinos-widget-3.php:11
+msgid "#3 Casinos widget for the SIDEBAR (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-4.php:10
+msgid "#Aces Casinos-4"
+msgstr ""
+
+#: widgets/casinos-widget-4.php:11
+msgid "#4 Casinos widget for the SIDEBAR (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-5.php:10
+msgid "#Aces Casinos-5"
+msgstr ""
+
+#: widgets/casinos-widget-5.php:11
+msgid "#5 Casinos widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-6.php:10
+msgid "#Aces Casinos-6"
+msgstr ""
+
+#: widgets/casinos-widget-6.php:11
+msgid "#6 Casinos widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-7.php:10
+msgid "#Aces Casinos-7"
+msgstr ""
+
+#: widgets/casinos-widget-7.php:11
+msgid "#7 Casinos widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-8.php:10
+msgid "#Aces Casinos-8"
+msgstr ""
+
+#: widgets/casinos-widget-8.php:11
+msgid "#8 Casinos widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/casinos-widget-9.php:10
+msgid "#Aces Casinos-9"
+msgstr ""
+
+#: widgets/casinos-widget-9.php:11
+msgid "#9 Casinos widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/games-sidebar.php:10
+msgid "#Aces Games Sidebar"
+msgstr ""
+
+#: widgets/games-sidebar.php:11
+msgid "Games widget for the SIDEBAR (Mercury theme)."
+msgstr ""
+
+#: widgets/games-widget-1.php:10
+msgid "#Aces Games-1"
+msgstr ""
+
+#: widgets/games-widget-1.php:11
+msgid "#1 Games widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/games-widget-2.php:10
+msgid "#Aces Games-2"
+msgstr ""
+
+#: widgets/games-widget-2.php:11
+msgid "#2 Games widget for the HOMEPAGE (Mercury theme)."
+msgstr ""
+
+#: widgets/games-widget-3.php:10
+msgid "#Aces Games-3"
+msgstr ""
+
+#: widgets/games-widget-3.php:11
+msgid "#3 Games widget for the HOMEPAGE (Mercury theme)."
+msgstr ""

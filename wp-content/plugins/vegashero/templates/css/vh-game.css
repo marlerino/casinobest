@@ -1,0 +1,347 @@
+.iframe_kh_wrapper {
+	position:relative;
+}
+.iframe_kh_wrapper .kh-no-close {
+	background:transparent;
+	position:absolute;
+	z-index:1000;
+	right:0;
+	top:0;
+	height:30px;
+	width:30px;
+}
+
+.game_provider-nyx .kh-no-close {
+	height: 58px;
+    width: 100%;
+    background:transparent;
+}
+
+.game_provider-playtech .kh-no-close {
+	height: 60px;
+    width: 86%;
+    bottom:0;
+    left:0;
+    top: auto;
+    right: auto;
+    background:transparent;
+}
+
+.iframe_kh_wrapper iframe {
+	position:relative;
+	width:100%;
+	/*min-width:730px;*/
+	min-width:auto;
+	max-width:100%;
+	min-height:560px;
+	max-height:100%;
+	overflow: hidden;
+}
+
+.widget .iframe_kh_wrapper iframe {
+	min-height:400px;
+}
+
+.home-top-sidebar .widget .iframe_kh_wrapper iframe {
+	min-height:500px;
+}
+
+#sidebar1.sidebar-wrapper .widget .iframe_kh_wrapper iframe {
+	min-height:auto;
+}
+
+.iframe_kh_wrapper iframe iframe {
+	width:150px !important;
+	height:100px !important;
+}
+
+.vh-casino-providers {
+	width:100%;
+	margin-top:50px;
+	margin-bottom:50px;
+	border:1px solid #b7cbd7;
+}
+.vh-casino-providers thead {
+	background:#f4f4f4;
+	font-weight:bold;
+	font-size:14px;
+	border-bottom:1px solid #b7cbd7;
+}
+.vh-casino-providers thead tr th, .vh-casino-providers tbody tr td {
+	padding:10px;
+	vertical-align:middle;
+	/*width: 20%;*/
+}
+.vh-casino-providers thead tr th {
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align: left;
+}
+.vh-casino-providers tbody tr {
+	border-bottom:1px solid #b7cbd7;
+}
+.vh-bonus {
+	font-size:24px;
+	line-height:24px;
+}
+.vh-casino-providers .vh-playnow {
+	background:#6ac144;
+	padding:15px 30px;
+	font-size:16px;
+	color:white !important;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration:none;
+	display: block;
+	/*float:left;*/
+	box-shadow: none;
+}
+.vh-casino-providers .vh-playnow:hover {
+	opacity: 0.9;
+	color: #fff;
+	box-shadow: none;
+}
+
+.vh-casino-providers .vh-cta-buttons,
+.vh-casino-providers .vh-casino {
+	width: 25%;
+}
+.vh-casino-providers .vh-devices {
+	width: 25%;
+}
+.vh-casino-providers .results-desktop {
+	display:inline-block;
+	padding-top:50px;
+	margin-right:15px;
+	width:49px;
+	text-align:center;
+	float:left;
+	font-size: 10px;
+	background:url(../img/desktop.png) 50% 7px no-repeat;
+	text-indent: -9999px;
+}
+
+.vh-casino-providers .results-tablet {
+	display:inline-block;
+	padding-top:50px;
+	margin-right:15px;
+	width:30px;
+	text-align:center;
+	float:left;
+	font-size: 10px;
+	background:url(../img/tablet.png) 50% 12px no-repeat;
+	text-indent: -9999px;
+}
+
+.vh-casino-providers .results-mobile {
+	display:inline-block;
+	padding-top:50px;
+	margin-right:0;
+	min-width:18px;
+	text-align:center;
+	float:left;
+	font-size: 10px;
+	background:url(../img/mobile.png) 50% 18px no-repeat;
+	text-indent: -9999px;
+}
+
+.vh-casino-providers .vh-devices .review-total-only {
+	padding-left: 0;
+	padding-right: 0;
+	background: transparent;
+}
+.vh-casino-providers .vh-devices div[class*="wp-review-"] .review-result-wrapper i {
+	color: #000;
+}
+
+.Widget_vh_recent_games .vh-games-widget-item {
+    width: 100%;
+    max-width: 376px;
+    list-style: none;
+    margin: 0 0 20px 0;;
+    white-space: pre-wrap;
+    background: #f1f1f1;
+    vertical-align: middle;    
+}
+
+li.vh-games-widget-item img, .vh-casino-providers .vh-casino img {
+	margin:0;
+}
+
+.Widget_vh_recent_games .vh-games-widget-item h3 {
+    text-align: center;
+    padding: 10px 5px;
+    margin: 0;
+    line-height: 18px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: normal;
+    color: #525d64!important;
+    text-transform: capitalize!important;
+}
+
+.Widget_vh_recent_games .vh-games-widget-item:hover img {
+    opacity: 0.8;
+}
+
+.Widget_vh_recent_games h3.widget-title {
+	font-family: inherit;
+}
+
+.nogames-mgs {
+	padding:10px 0;
+} 
+
+/* WMS left align fix */
+/*.single-vegashero_games .game_provider-wms .singlegame-iframe {
+	max-width: 960px;
+}
+
+.single-vegashero_games .game_provider-wms .iframe_kh_wrapper {
+	text-align: center;
+	background: #000;
+}*/
+
+.single-vegashero_games .game_provider-betsoft-mobile .iframe_kh_wrapper {
+	min-width: auto;
+}
+
+
+.vh-casino-providers .vh-bonus span {
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    color: #afaeae;
+    margin:3px 0;
+    text-transform: none;
+}
+.vh-bonus span a {
+    color: #afaeae;
+    display: inline-block;
+    margin-top: 5px;
+}
+.vh-cta-buttons a {
+	text-align: center;
+	/*width:100%;*/
+	display: block;
+}
+.terms-info {
+	min-width:16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../img/infoicon.png) 0 0 no-repeat;
+	opacity: 0.8;
+	position: relative;
+    top: 3px;
+    left: 3px;
+    cursor: pointer;
+}
+.terms-info .title {
+    margin-top: 18px;
+    font-style: normal;
+}
+
+.vh-casino-providers .vh-cta-buttons .reviewlink {
+	text-transform: none;
+	color: #7a7a7a;
+}
+
+
+@media (max-width: 480px) {
+	.vh-casino-providers .vh-playnow {
+		padding:18px;
+		font-size:14px;
+	}
+}
+
+
+@media (min-width: 420px) and (max-width: 768px) {
+	.vh-casino-providers .vh-devices div {
+		width: 30px;
+		background-position: 50% 15px;
+    	background-size: 28px;
+	}
+	table.vh-casino-providers thead tr th.vh-casino {
+		width: auto!important;
+	}
+	.vh-casino-providers .vh-devices .results-mobile {
+		background-size: 20px;
+	}
+	.vh-casino-providers .vh-bonus {
+    	font-size: 15px;
+    	line-height: 16px;
+    	display: table-cell;
+	}
+	.vh-casino-providers .vh-playnow {
+    	padding: 15px 25px;
+    	margin-bottom:10px;
+	}
+	.vh-devices {
+	    display: none;
+	}
+}
+
+@media (max-width: 420px) {
+	.singlegame_widget .vh-bonus {
+	    font-size: 14px;
+    	line-height: 17px;
+	    display: table-cell;
+	}
+	.singlegame_widget .vh-casino-providers .vh-playnow {
+	    padding: 9px 6px;
+	    font-size: 12px;
+	    line-height: 14px;
+	    margin-top: -5px;
+	}
+	.singlegame_widget .vh-casino-providers .vh-playnow strong {
+	    font-size: 10px;
+	    display: inline-table;
+	}
+	.singlegame_widget .vh-casino-providers thead tr th {
+    	font-size: 11px;
+	}
+
+	.vh-casino-providers thead tr th.vh-devices {
+		display: none;
+	}
+	.vh-casino-providers .vh-cta-buttons,
+	.vh-casino-providers .vh-casino,
+	.vh-casino-providers .vh-bonus,
+	.vh-casino-providers .vh-devices {
+		width: 100%;
+	   	display: block;
+	   	text-align: center;
+	}
+	.vh-casino-providers .vh-devices .device-icons {
+		display: none;
+	}
+	.vh-casino-providers .vh-devices, .vh-casino-providers .vh-devices .review-total-only {
+		padding: 0;
+	}
+	.vh-casino-providers .vh-bonus {
+		padding: 5px 0;
+	}
+	.vh-casino-providers .vh-casino img {
+		width: 100%;
+	}
+	.vh-casino-providers .vh-casino, .vh-casino-providers .vh-cta-buttons {
+		padding:0;
+	}
+	.vh-casino-providers .vh-cta-buttons .vh-playnow {
+	    padding: 10px 0;
+	    width: 100%;
+	    margin-bottom: 5px!important;
+	}
+	.vh-casino-providers th.vh-casino {
+		padding: 10px 0;
+	}
+	.vh-casino-providers th.vh-cta-buttons, .vh-casino-providers th.vh-bonus {
+		display: none;
+	}
+	.vh-casino-providers .vh-cta-buttons .reviewlink {
+		margin-bottom: 5px;
+	}
+
+
+}
