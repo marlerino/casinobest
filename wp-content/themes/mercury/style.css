@@ -6334,7 +6334,7 @@ i.fa-puzzle-piece {
 
 .space-companies-archive-item-ins {
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #292929;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
     margin: 0 15px 30px;
     -webkit-transition: all 0.5s ease-in-out;
@@ -6375,10 +6375,14 @@ i.fa-puzzle-piece {
 }
 
 .space-companies-archive-item-title a {
-    font-weight: 700;
-    font-size: 1.333em;
-    line-height: 1.25em;
-    color: #151515;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
 }
 
 .space-companies-archive-item-title a:hover {
@@ -6443,7 +6447,7 @@ i.fa-puzzle-piece {
 }
 
 .space-companies-archive-item-button a {
-    display: inline-block;
+    /*display: inline-block;
     padding: 13px 40px;
     font-weight: 700;
     font-size: 1em;
@@ -6456,7 +6460,25 @@ i.fa-puzzle-piece {
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;*/
+    display: inline-block;
+    min-width: 180px;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+    border-radius: 3px;
+    /* background-color: #2ecc71; */
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF !important;
 }
 
 .space-companies-archive-item-button a:hover {
@@ -8253,6 +8275,7 @@ i.fa-puzzle-piece {
 
 .space-games-home-widget.homepage-block {
     margin-top: 0;
+    background-color: #1e1e1e;
 }
 
 .space-games-home-widget-ins {
@@ -8280,7 +8303,7 @@ i.fa-puzzle-piece {
 
 .space-games-archive-item-ins {
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #292929;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
     margin: 0 15px 30px;
     -webkit-transition: all 0.5s ease-in-out;
