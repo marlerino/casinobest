@@ -183,30 +183,37 @@ class aces_casinos_home_3_widget extends WP_Widget {
 						</div>
 						<div class="space-casinos-3-archive-item-terms box-20 relative">
 							<div class="space-casinos-3-archive-item-terms-ins box-100 text-center relative">
-							<?php if ($casino_terms_desc) {
-								echo wp_kses( $casino_terms_desc, $casino_allowed_html );
-							} ?>
+                                <?php if ($casino_terms_desc): ?>
+                                    <img class="item-terms-bonus-img" src="<?= get_template_directory_uri() ?>/images/money.png" alt="">
+                                    <span class="bonus-short-desc-span">
+                                        <?= wp_kses( $casino_terms_desc, $casino_allowed_html ) ?>
+                                    </span>
+                                    <div class="item-terms-question-wrap">
+                                        <span class="bonus-question">Welcome Bonus</span>
+                                        <img class="item-terms-question-img" src="<?= get_template_directory_uri() ?>/images/question_sign.png" alt="">
+                                    </div>
+                                <?php endif; ?>
 							</div>
 						</div>
 						<div class="space-casinos-3-archive-item-rating box-20 relative">
 							<div class="space-casinos-3-archive-item-rating-ins box-100 text-center relative">
-								<?php if ($games_count) { ?>
+								<?php/* if ($games_count) { ?>
 								<div class="space-casinos-3-archive-item-games relative">
 									<i class="fas fa-dice"></i> <span><?php echo esc_html( $games_count ); ?></span> <?php if ($games_count == 1) { echo esc_html__( 'game', 'aces' ); } else { echo esc_html__( 'games', 'aces' ); } ?>
 								</div>
-								<?php } ?>
+								<?php }*/ ?>
 								<div class="space-casinos-3-archive-item-rating-box relative">
 									<?php if( function_exists('wp_star_rating') ){ wp_star_rating( array( 'rating'=>$casino_overall_rating, 'type'=>'rating' ) ); } ?>
 									<span><?php echo esc_html( number_format( round( $casino_overall_rating, 1 ), 1, '.', ',') ); ?></span>
 								</div>
 
-								<?php if ($casino_button_notice) { ?>
+								<?php/* if ($casino_button_notice) { ?>
 
 								<div class="space-casinos-archive-item-button-notice relative">
 									<?php echo wp_kses( $casino_button_notice, $casino_allowed_html ); ?>
 								</div>
 
-								<?php } ?>
+								<?php } */?>
 										
 							</div>
 						</div>
@@ -214,7 +221,13 @@ class aces_casinos_home_3_widget extends WP_Widget {
 							<div class="space-casinos-3-archive-item-rating-ins box-100 text-center relative">
 								<?php if ($games_count) { ?>
 								<div class="space-casinos-3-archive-item-games relative">
-									<i class="fas fa-dice"></i> <span><?php echo esc_html( $games_count ); ?></span> <?php if ($games_count == 1) { echo esc_html__( 'game', 'aces' ); } else { echo esc_html__( 'games', 'aces' ); } ?>
+                                    <?php if ($games_count) { ?>
+                                        <div class="space-casinos-3-archive-item-games relative">
+                                            <img class="item-games-img" src="<?= get_template_directory_uri() ?>/images/game.png" alt="">
+                                            <span class="bonus-short-desc-span"><?php echo esc_html( $games_count ); ?></span>
+                                            <span class="bonus-question">Games</span>
+                                        </div>
+                                    <?php } ?>
 								</div>
 								<?php } ?>
 										
@@ -224,7 +237,7 @@ class aces_casinos_home_3_widget extends WP_Widget {
 							<div class="space-casinos-3-archive-item-button-ins box-100 text-center relative">
 								<a href="<?php echo esc_url( $external_link_url ); ?>" title="<?php echo esc_attr( $button_title ); ?>" <?php if ($external_link) { ?>target="_blank" rel="nofollow"<?php } ?>><?php echo esc_html( $button_title ); ?></a>
 
-								<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( $permalink_button_title ); ?>"><?php echo esc_html( $permalink_button_title ); ?></a>
+                                <a class="item-button-readRewie-botton" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( $permalink_button_title ); ?>"><?php echo esc_html( $permalink_button_title ); ?></a>
 							</div>
 						</div>
 					</div>
