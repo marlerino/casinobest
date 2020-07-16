@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 <body ontouchstart <?php body_class(); ?>>
-<div class="space-box <?php if (get_permalink() != "https://casinobest.mini/casinos/"): ?>relative<?php endif; ?><?php if (get_theme_mod('mercury_boxed_layout')) { ?> enabled<?php } ?>">
+<div class="space-box <?php if ((get_permalink() != "https://casinobest.mini/casinos/") and (get_permalink() != "https://casinobest.mini/games/")): ?>relative<?php endif; ?><?php if (get_theme_mod('mercury_boxed_layout')) { ?> enabled<?php } ?>">
 
     <!-- Header Start -->
 
@@ -24,6 +24,12 @@
     <?php if (get_permalink() == "https://casinobest.mini/casinos/"): ?>
         <div class="top-casinos-banner">
             <span class="ctb-title">Top 100 best online casinos in Canada</span>
+            <?= get_img_html("cards.png","ctb-cards-img") ?>
+        </div>
+    <?php endif; ?>
+    <?php if (get_permalink() == "https://casinobest.mini/games/"): ?>
+        <div class="top-casinos-banner">
+            <span class="ctb-title">Games</span>
             <?= get_img_html("cards.png","ctb-cards-img") ?>
         </div>
     <?php endif; ?>

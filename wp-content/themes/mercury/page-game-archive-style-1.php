@@ -25,7 +25,7 @@ Template Name: Games Archive Style #1
 
 <!-- Archive Section Start -->
 
-<div class="space-archive-section box-100 relative space-casino-archive">
+<div class="space-archive-section box-100 relative space-casino-archive top-margin-main-content">
 	<div class="space-archive-section-ins space-page-wrapper relative">
 		<div class="space-casino-archive-ins box-100 relative">
 

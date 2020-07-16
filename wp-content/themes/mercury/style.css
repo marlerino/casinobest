@@ -370,6 +370,7 @@ input[type="submit"]:hover {
     line-height: 140%;
     color: #FFFFFF;
 }
+
 .space-page-body {
     background-color: #1e1e1e;
 }
@@ -10520,6 +10521,7 @@ span.tc-apply + div.tc-desc:active {
     height: 337px;
     margin-top: 25px;
 }
+
 .top-casinos-banner {
     display: inline-flex;
     flex-direction: row;
@@ -10532,11 +10534,13 @@ span.tc-apply + div.tc-desc:active {
     left: 0px;
     z-index: 10000;
 }
+
 .ctb-cards-img {
     position: absolute;
     top: -112px;
     right: 257px;
 }
+
 .ctb-title {
     font-family: Alfa Slab One, fantasy;
     font-style: normal;
@@ -10551,4 +10555,8 @@ span.tc-apply + div.tc-desc:active {
     position: absolute;
     top: 60px;
     left: 302px;
+}
+
+.top-margin-main-content {
+    margin-top: 452px !important;
 }
