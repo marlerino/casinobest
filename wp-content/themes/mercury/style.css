@@ -10540,6 +10540,95 @@ span.tc-apply + div.tc-desc:active {
     height: 337px;
     margin-top: 25px;
 }
-.faq-wrapper {
 
+/* the faq block */
+.faq-wrapper {
+    background: #1e1e1e;
 }
+.faq-wrapper .space-block-title span{
+    font-weight: 900;
+}
+
+.faq-bg {
+    /* position: absolute; */
+    background-image: url(https://casinobest.mini/wp-content/uploads/2020/07/back-img-min.png);
+    z-index: 1;
+    display: block;
+    /* width: 100vw; */
+    height: 843px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* left: -199px; */
+    margin-left: -206px;
+    margin-right: -206px;
+    margin-bottom: -613px;
+    margin-top: -246px;
+}
+.faq-buttons {
+    text-align: center;
+    margin-right: 30px;
+    z-index: 1;
+    position: relative;
+}
+.faq-wrapper .ui-accordion {
+    background: rgba(0,0,0,0);
+}
+
+.faq-wrapper #accordions-3337 {
+    background: transparent;
+}
+
+.faq-wrapper #accordions-3337 .accordions-head {
+    background: #292929 none repeat scroll 0 0;
+    margin: 30px;
+    margin-left: 15px;
+    outline: none;
+    padding: 24px 30px;
+}
+.transparent-button,.gradient-button{
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 3px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.transparent-button a,.gradient-button a{
+    color: white !important;
+}
+.gradient-button{
+    background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+}
+.space-box {
+    background-color: #1e1e1e;
+}
+.faq-wrapper .accordion-content {
+    margin-top: -30px !important;
+    margin-left: 15px !important;
+    margin-right: 30px !important;
+    padding: 25px 30px !important;
+}
+.faq-wrapper .accordions .accordions-head-title{
+    margin: 0px 0px;
+}
+
+@media only screen and (min-width: 1024px){
+.faq-buttons{
+    width: 720px;
+}
+}
+@media(min-width: 1546px){
+    .faq-bg {
+        /* position: absolute; */
+        width: 1960px;
+        height: 843px;
+        height: 964px;
+        margin-left: -410px;
+    }
+    .faq-buttons{
+        padding-bottom: 119px;
+    }
+}
+
