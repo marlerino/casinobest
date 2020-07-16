@@ -379,7 +379,7 @@ input[type="submit"]:hover {
 }
 
 .space-box {
-    background-color: #fff;
+    background-color: #1e1e1e;
 }
 
 .space-box.enabled {
@@ -6631,6 +6631,7 @@ i.fa-puzzle-piece {
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
+    background-color: #1e1e1e;
 }
 
 .space-casinos-3-archive-item {
@@ -9955,6 +9956,7 @@ a.wp-block-button__link {
 
 .space-shortcode-wrap {
     margin: 0 -15px;
+    margin-top: 452px;
 }
 
 .space-shortcode-1 .space-block-title,
@@ -10518,6 +10520,35 @@ span.tc-apply + div.tc-desc:active {
     height: 337px;
     margin-top: 25px;
 }
-.faq-wrapper {
-
+.top-casinos-banner {
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    background: #292929;
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    top: 111px;
+    left: 0px;
+    z-index: 10000;
+}
+.ctb-cards-img {
+    position: absolute;
+    top: -112px;
+    right: 257px;
+}
+.ctb-title {
+    font-family: Alfa Slab One, fantasy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 611px;
+    height: 154px;
+    position: absolute;
+    top: 60px;
+    left: 302px;
 }
