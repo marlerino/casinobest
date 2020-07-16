@@ -363,38 +363,13 @@ input[type="submit"]:hover {
 }
 
 .space-block-title span {
-    font-family: Alfa Slab One;
+    font-family: Alfa Slab One, fantasy;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
     line-height: 140%;
     color: #FFFFFF;
 }
-
-/*.space-block-title span:before {
-    content: '';
-    z-index: 1;
-    opacity: 0.8;
-    width: 11px;
-    height: 11px;
-    position: absolute;
-    left: 0;
-    border-radius: 50%;
-    top: 4px;
-    background-color: #ff2453;
-}
-
-.space-block-title span:after {
-    content: '';
-    z-index: -1;
-    width: 11px;
-    height: 11px;
-    position: absolute;
-    left: 0;
-    border-radius: 50%;
-    top: 11px;
-    background-color: #be2edd;
-}*/
 .space-page-body {
     background-color: #1e1e1e;
 }
@@ -10333,7 +10308,7 @@ span.tc-apply + div.tc-desc:active {
 }
 
 .hp-tb-title {
-    font-family: Alfa Slab One;
+    font-family: Alfa Slab One, fantasy;
     font-style: normal;
     font-weight: normal;
     font-size: 55px;
