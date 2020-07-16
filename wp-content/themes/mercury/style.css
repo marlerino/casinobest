@@ -8311,6 +8311,7 @@ i.fa-puzzle-piece {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    padding: 6px;
 }
 
 .space-games-archive-item-ins:hover {
@@ -8318,7 +8319,7 @@ i.fa-puzzle-piece {
 }
 
 .space-games-archive-item-wrap {
-    padding: 30px;
+    padding: 10px 0 10px 0;
 }
 
 .space-games-archive-item-img {
@@ -8328,14 +8329,16 @@ i.fa-puzzle-piece {
 }
 
 .space-games-archive-item-title {
-    margin-bottom: 10px;
+    padding-left: 4px;
 }
 
 .space-games-archive-item-title a {
-    font-weight: 700;
-    font-size: 1.333em;
-    line-height: 1.25em;
-    color: #151515;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .space-games-archive-item-title a:hover {

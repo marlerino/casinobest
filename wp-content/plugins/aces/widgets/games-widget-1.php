@@ -127,6 +127,30 @@ class aces_games_home_widget extends WP_Widget {
 
 				<div class="space-games-archive-item box-25 left relative">
 					<div class="space-games-archive-item-ins relative">
+                        <div class="space-games-archive-item-wrap text-left relative">
+                            <div class="space-games-archive-item-title relative">
+                                <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a>
+                            </div>
+
+                            <?php if ($game_short_desc) { ?>
+                                <div class="space-games-archive-item-short-desc relative">
+                                    <?php echo wp_kses( $game_short_desc, $game_allowed_html ); ?>
+                                </div>
+                            <?php } ?>
+
+                            <!--<div class="space-games-archive-item-button relative">
+								<a href="<?php /*echo esc_url( $external_link_url ); ?>" title="<?php echo esc_attr( $button_title ); ?>" <?php if ($external_link) { ?>target="_blank" rel="nofollow"<?php } ?>><?php echo esc_html( $button_title ); */?></a>
+							</div>-->
+
+                            <?php if ($game_button_notice) { ?>
+
+                                <div class="space-games-archive-item-button-notice relative">
+                                    <?php echo wp_kses( $game_button_notice, $game_allowed_html ); ?>
+                                </div>
+
+                            <?php } ?>
+
+                        </div>
 						<?php $widget_img = wp_get_attachment_image_src(get_post_thumbnail_id(), 'mercury-450-317'); if ($widget_img) { ?>
 						<div class="space-games-archive-item-img relative">
 							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -134,30 +158,6 @@ class aces_games_home_widget extends WP_Widget {
 							</a>
 						</div>
 						<?php } ?>
-						<div class="space-games-archive-item-wrap text-center relative">
-							<div class="space-games-archive-item-title relative">
-								<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a>
-							</div>
-
-							<?php if ($game_short_desc) { ?>
-							<div class="space-games-archive-item-short-desc relative">
-								<?php echo wp_kses( $game_short_desc, $game_allowed_html ); ?>
-							</div>
-							<?php } ?>
-
-							<div class="space-games-archive-item-button relative">
-								<a href="<?php echo esc_url( $external_link_url ); ?>" title="<?php echo esc_attr( $button_title ); ?>" <?php if ($external_link) { ?>target="_blank" rel="nofollow"<?php } ?>><?php echo esc_html( $button_title ); ?></a>
-							</div>
-
-							<?php if ($game_button_notice) { ?>
-
-							<div class="space-games-archive-item-button-notice relative">
-								<?php echo wp_kses( $game_button_notice, $game_allowed_html ); ?>
-							</div>
-
-							<?php } ?>
-
-						</div>
 					</div>
 				</div>
 
