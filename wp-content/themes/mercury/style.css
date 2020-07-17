@@ -10613,4 +10613,43 @@ span.tc-apply + div.tc-desc:active {
         padding-bottom: 119px;
     }
 }
+/* top banner in the top of casinos page,games page */
+.top-casinos-banner {
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    background: #292929;
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    top: 111px;
+    left: 0px;
+    z-index: 10000;
+}
+
+.ctb-cards-img {
+    position: absolute;
+    top: -112px;
+    right: 257px;
+}
+
+.ctb-title {
+    font-family: Alfa Slab One, fantasy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 611px;
+    height: 154px;
+    position: absolute;
+    top: 60px;
+    left: 302px;
+}
+
+.top-margin-main-content {
+    margin-top: 452px !important;
+}
 
