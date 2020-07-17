@@ -354,7 +354,7 @@ input[type="submit"]:hover {
 }
 
 .space-block-title {
-    padding: 0 15px 30px;
+    padding: 0 19px 0;
     font-family: 'Roboto', sans-serif;
     color: #151515;
     font-size: 1.333em;
@@ -6037,7 +6037,9 @@ div.rssSummary {
 }
 
 .space-casino-details-item-title {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: end;
     line-height: 30px;
 }
 
@@ -6068,15 +6070,22 @@ i.fa-puzzle-piece {
 }
 
 .space-casino-details-item-links a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0px;
     display: inline-block;
-    color: #2e3246;
-    font-size: 1em;
-    line-height: 1.333em;
     padding: 5px 20px 6px;
     margin-right: 4px;
     margin-bottom: 8px;
-    border-radius: 16px;
-    background-color: #f1f3f4;
+    background: #383838;
+    border-radius: 3px;
 }
 
 .space-casino-details-item-links a:hover {
@@ -6099,15 +6108,23 @@ i.fa-puzzle-piece {
 }
 
 .space-casino-details-item-links span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0px;
+
     display: inline-block;
-    color: #2e3246;
-    font-size: 1em;
-    line-height: 1.333em;
     padding: 5px 20px 6px;
     margin-right: 4px;
     margin-bottom: 8px;
-    border-radius: 16px;
-    background-color: #f1f3f4;
+    background: #383838;
+    border-radius: 3px;
 }
 
 .space-casino-details-item-links span.flag-item {
@@ -10527,7 +10544,8 @@ span.tc-apply + div.tc-desc:active {
 .faq-wrapper {
     background: #1e1e1e;
 }
-.faq-wrapper .space-block-title span{
+
+.faq-wrapper .space-block-title span {
     font-weight: 900;
 }
 
@@ -10546,14 +10564,16 @@ span.tc-apply + div.tc-desc:active {
     margin-bottom: -613px;
     margin-top: -246px;
 }
+
 .faq-buttons {
     text-align: center;
     margin-right: 30px;
     z-index: 1;
     position: relative;
 }
+
 .faq-wrapper .ui-accordion {
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
 }
 
 .faq-wrapper #accordions-3337 {
@@ -10567,7 +10587,8 @@ span.tc-apply + div.tc-desc:active {
     outline: none;
     padding: 24px 30px;
 }
-.transparent-button,.gradient-button{
+
+.transparent-button, .gradient-button {
     display: inline-block;
     padding: 18px 40px;
     border-radius: 3px;
@@ -10577,31 +10598,37 @@ span.tc-apply + div.tc-desc:active {
     line-height: 20px;
     text-align: center;
 }
-.transparent-button a,.gradient-button a{
+
+.transparent-button a, .gradient-button a {
     color: white !important;
 }
-.gradient-button{
+
+.gradient-button {
     background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
 }
+
 .space-box {
     background-color: #1e1e1e;
 }
+
 .faq-wrapper .accordion-content {
     margin-top: -30px !important;
     margin-left: 15px !important;
     margin-right: 30px !important;
     padding: 25px 30px !important;
 }
-.faq-wrapper .accordions .accordions-head-title{
+
+.faq-wrapper .accordions .accordions-head-title {
     margin: 0px 0px;
 }
 
-@media only screen and (min-width: 1024px){
-.faq-buttons{
-    width: 720px;
+@media only screen and (min-width: 1024px) {
+    .faq-buttons {
+        width: 720px;
+    }
 }
-}
-@media(min-width: 1546px){
+
+@media (min-width: 1546px) {
     .faq-bg {
         /* position: absolute; */
         width: 1960px;
@@ -10609,10 +10636,12 @@ span.tc-apply + div.tc-desc:active {
         height: 964px;
         margin-left: -410px;
     }
-    .faq-buttons{
+
+    .faq-buttons {
         padding-bottom: 119px;
     }
 }
+
 /* top banner in the top of casinos page,games page */
 .top-casinos-banner {
     display: inline-flex;
@@ -10620,7 +10649,7 @@ span.tc-apply + div.tc-desc:active {
     color: white;
     background: #292929;
     width: 100%;
-    height: 330px;
+    height: 397px;
     position: absolute;
     top: 111px;
     left: 0px;
@@ -10653,3 +10682,108 @@ span.tc-apply + div.tc-desc:active {
     margin-top: 452px !important;
 }
 
+/* syles for a single casino page */
+
+.space-single-casino {
+    margin-top: 470px !important;
+}
+
+.top-casion-banner-wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 60px 0 60px;
+}
+
+.tcb-top-row {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tcb-top-row {
+    margin-top: 55px;
+}
+
+.tcb-bottom-row {
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 43px;
+    position: relative;
+}
+
+.tcb-rating-wrapper {
+    position: relative;
+    height: 40px;
+    border-radius: 20px;
+    padding: 11px 20px 11px 20px;
+    border: 1px solid #d6d7db;
+    width: 140px;
+}
+
+.tcb-rating-count {
+    position: absolute;
+    right: 57px;
+    height: 1em;
+    top: -36px;
+    bottom: 5px;
+    margin: auto 0;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1em;
+    color: #FFFFFF;
+    background-color: black;
+    width: 25px;
+}
+
+.additional-text-style h3 {
+    font-family: Alfa Slab One, fantasy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF !important;
+}
+
+.tcb-img-level {
+    position: absolute;
+    top: -10px;
+}
+
+.tcb-bottom-row-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tcb-bottom-item {
+    margin-right: 90px;
+}
+
+.tcb-bonus-wrapper {
+    position: relative;
+}
+
+.tcb-right-content {
+
+}
+
+.tcb-rating {
+    padding-top: 10px;
+}
+
+.tcb-icons {
+    margin-right: 15px;
+}
+
+.tcb-span-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.space-games-archive-item-img a img{
+    height: 243px;
+}

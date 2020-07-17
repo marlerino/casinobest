@@ -8,7 +8,24 @@
     <?php wp_head(); ?>
 </head>
 <body ontouchstart <?php body_class(); ?>>
-<div class="space-box <?php if ((get_permalink() != "https://casinobest.mini/casinos/") and (get_permalink() != "https://casinobest.mini/games/")): ?>relative<?php endif; ?><?php if (get_theme_mod('mercury_boxed_layout')) { ?> enabled<?php } ?>">
+<?php
+if($post->post_type == "casino") {
+
+}
+?>
+<div class="space-box
+    <?php if (
+            (get_permalink() != "https://casinobest.mini/casinos/")
+        and
+            (get_permalink() != "https://casinobest.mini/games/")
+        and
+            ($post->post_type != "casino")
+            ):
+    ?>
+            relative
+    <?php endif; ?>
+
+    <?php if (get_theme_mod('mercury_boxed_layout')) { ?> enabled<?php } ?>">
 
     <!-- Header Start -->
 
@@ -31,6 +48,11 @@
         <div class="top-casinos-banner">
             <span class="ctb-title">Games</span>
             <?= get_img_html("cards.png","ctb-cards-img") ?>
+        </div>
+    <?php endif; ?>
+    <?php if ($post->post_type == "casino"): ?>
+        <div class="top-casinos-banner">
+            <?php get_template_part( 'top-casino-banner-for-style-2' ); ?>
         </div>
     <?php endif; ?>
     <div class="space-header-search-block fixed">

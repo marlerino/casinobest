@@ -932,6 +932,5 @@ function show_stock_banner_shortcode()
 
 add_shortcode("hp-stock-banner", "show_stock_banner_shortcode");
 
-
 add_filter("widget_text", "shortcode_unautop");//необходимо для того, чтобы shortcode работал в Custom HTML виджете
 add_filter("widget_text", "do_shortcode");//необходимо для того, чтобы shortcode работал в Custom HTML виджете
