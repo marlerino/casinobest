@@ -7,22 +7,22 @@ Template Name: Casinos Archive Style #1
 
 <!-- Title Box Start -->
 
-<div class="space-archive-title-box box-100 relative">
+<!--<div class="space-archive-title-box box-100 relative">
 	<div class="space-archive-title-box-ins space-page-wrapper relative">
 		<div class="space-archive-title-box-h1 relative">
-			<h1><?php the_title(); ?></h1>
+			<h1><?php// the_title(); ?></h1>-->
 			
 			<!-- Breadcrumbs Start -->
 
-			<?php get_template_part( '/theme-parts/breadcrumbs' ); ?>
+			<?php// get_template_part( '/theme-parts/breadcrumbs' ); ?>
 
 			<!-- Breadcrumbs End -->
-		</div>
+		<!--</div>
 	</div>
-</div>
+</div>-->
 
 <!-- Title Box End -->
-
+<?php /* ?>
 <!-- Archive Section Start -->
 
 <div class="space-archive-section box-100 relative space-casino-archive">
@@ -159,4 +159,7 @@ Template Name: Casinos Archive Style #1
 
 <!-- Archive Section End -->
 
-<?php get_footer(); ?>
+<?php */
+echo do_shortcode('[aces-casinos-4 items_number="5" external_link="1" category="" items_id="" game_id="" order="DESC" orderby="rating" ]');
+
+get_footer(); ?>

@@ -363,7 +363,7 @@ input[type="submit"]:hover {
 }
 
 .space-block-title span {
-    font-family: Alfa Slab One;
+    font-family: Alfa Slab One, fantasy;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -371,30 +371,6 @@ input[type="submit"]:hover {
     color: #FFFFFF;
 }
 
-/*.space-block-title span:before {
-    content: '';
-    z-index: 1;
-    opacity: 0.8;
-    width: 11px;
-    height: 11px;
-    position: absolute;
-    left: 0;
-    border-radius: 50%;
-    top: 4px;
-    background-color: #ff2453;
-}
-
-.space-block-title span:after {
-    content: '';
-    z-index: -1;
-    width: 11px;
-    height: 11px;
-    position: absolute;
-    left: 0;
-    border-radius: 50%;
-    top: 11px;
-    background-color: #be2edd;
-}*/
 .space-page-body {
     background-color: #1e1e1e;
 }
@@ -404,7 +380,7 @@ input[type="submit"]:hover {
 }
 
 .space-box {
-    background-color: #fff;
+    background-color: #1e1e1e;
 }
 
 .space-box.enabled {
@@ -6656,6 +6632,7 @@ i.fa-puzzle-piece {
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
+    background-color: #1e1e1e;
 }
 
 .space-casinos-3-archive-item {
@@ -8311,6 +8288,7 @@ i.fa-puzzle-piece {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    padding: 6px;
 }
 
 .space-games-archive-item-ins:hover {
@@ -8318,7 +8296,7 @@ i.fa-puzzle-piece {
 }
 
 .space-games-archive-item-wrap {
-    padding: 30px;
+    padding: 10px 0 10px 0;
 }
 
 .space-games-archive-item-img {
@@ -8328,14 +8306,16 @@ i.fa-puzzle-piece {
 }
 
 .space-games-archive-item-title {
-    margin-bottom: 10px;
+    padding-left: 4px;
 }
 
 .space-games-archive-item-title a {
-    font-weight: 700;
-    font-size: 1.333em;
-    line-height: 1.25em;
-    color: #151515;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .space-games-archive-item-title a:hover {
@@ -9977,6 +9957,7 @@ a.wp-block-button__link {
 
 .space-shortcode-wrap {
     margin: 0 -15px;
+    margin-top: 452px;
 }
 
 .space-shortcode-1 .space-block-title,
@@ -10330,7 +10311,7 @@ span.tc-apply + div.tc-desc:active {
 }
 
 .hp-tb-title {
-    font-family: Alfa Slab One;
+    font-family: Alfa Slab One, fantasy;
     font-style: normal;
     font-weight: normal;
     font-size: 55px;
@@ -10540,6 +10521,7 @@ span.tc-apply + div.tc-desc:active {
     height: 337px;
     margin-top: 25px;
 }
+
 
 /* the faq block */
 .faq-wrapper {
