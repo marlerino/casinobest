@@ -10718,6 +10718,8 @@ span.tc-apply + div.tc-desc:active {
     padding: 11px 20px 11px 20px;
     border: 1px solid #d6d7db;
     width: 140px;
+    margin-left: 24px;
+    margin-bottom: 10px;
 }
 
 .tcb-rating-count {
@@ -10784,6 +10786,134 @@ span.tc-apply + div.tc-desc:active {
     color: #FFFFFF;
 }
 
-.space-games-archive-item-img a img{
+.space-games-archive-item-img a img {
     height: 243px;
+}
+
+.casino-bonuses-img {
+
+}
+
+/* The review path in a single casino page */
+.cp-title {
+    font-family: Alfa Slab One, fantasy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.review-statistic-wrapper {
+    max-height: 301px;
+    height: 100%;
+    width: 100%;
+}
+
+.overall-rating {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.review-statistic-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.review-statistic-content {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #292929;
+    box-shadow: 0px 30px 20px #1A1A1A;
+    border-radius: 10px;
+    height: 301px;
+    padding-left: 30px;
+    padding-bottom: 56px;
+}
+
+.central-block-labels {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.left-block-labels {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 54px;
+}
+
+.wptime-plugin-progress-wrap {
+    border-radius: 11px;
+}
+
+.wptime-plugin-progress-bar {
+    border-radius: 11px;
+}
+
+.cb-progressbar {
+    width: 100%;
+}
+
+.cp-review-wrapper {
+    width: 1140px;
+    background-color: #1e1e1e;
+    margin-left: 30px;
+}
+
+.review-statistic-right-block {
+    width: 186px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.review-statistic-central-block {
+    width: 351px;
+    height: 148px;
+    margin-left: 76px;
+    padding-top: 77px;
+}
+
+.review-statistic-left-block {
+    width: 322px;
+    padding-top: 57px;
+}
+
+.cb-progressbar {
+    width: 214px;
+}
+
+.rrs-botton {
+    margin-top: 45px;
+}
+
+.overall-rating {
+    margin-top: 10px;
+}
+
+.review-statistic-central-block table tbody tr {
+    margin-bottom: 10px;
+}
+
+.cb-td {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF !important;
+    width: 26px;
 }

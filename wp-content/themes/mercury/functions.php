@@ -899,15 +899,16 @@ function get_biggest_winnings_block_html()
     $html .= get_img_html("money/6.png", "stock-money-img-6");
     $html .= get_img_html("money/7.png", "stock-money-img-7");
     $html .= get_img_html("lights.png", "stock-lights-img");
-    $html .= get_img_html("stock-sum.png","stock-sum-img");
-    $html .= get_img_html("spinit.png","stock-spinit-img");
+    $html .= get_img_html("stock-sum.png", "stock-sum-img");
+    $html .= get_img_html("spinit.png", "stock-spinit-img");
     $html .= '<a class="play-now-btn play-now-btn-position" href="" title="" target="_blank" rel="nofollow">Play now</a>';
     $html .= '</div>';
 
     return $html;
 }
 
-function get_most_popular_banners() {
+function get_most_popular_banners()
+{
     $html = '';
 
     $html .= '<div class="most-popular">';
@@ -934,3 +935,125 @@ add_shortcode("hp-stock-banner", "show_stock_banner_shortcode");
 
 add_filter("widget_text", "shortcode_unautop");//необходимо для того, чтобы shortcode работал в Custom HTML виджете
 add_filter("widget_text", "do_shortcode");//необходимо для того, чтобы shortcode работал в Custom HTML виджете
+
+/* the review path for a single casino page */
+
+function get_overall_rating_by_casino_ratings($casino_ratings)
+{
+    return esc_html(array_sum($casino_ratings) / count($casino_ratings));
+}
+
+/**
+ * @param $overall_rating
+ * @return string
+ */
+function get_rating_stars($rating)
+{
+    if (function_exists('wp_star_rating')) {
+        return wp_star_rating(array('rating' => $rating, 'type' => 'rating', 'echo' => false));
+    } else {
+        return "";
+    }
+}
+
+function get_rating_block_html($overall_rating)
+{
+    $rating = get_rating_stars($overall_rating);
+    $html = '';
+    $html .= '<div class="tcb-rating-wrapper tcb-bottom-item">';
+    $html .= '<div class="space-companies-sidebar-2-item-rating relative">';
+    $html .= $rating;
+    $html .= '</div>';
+    $html .= '<div class="tcb-rating-count">' . str_replace(" rating", "", $rating) . '</div>';
+    $html .= '</div>';
+    return $html;
+}
+
+function get_button_title($post_id)
+{
+    $casino_button_title = esc_html(get_post_meta($post_id, 'casino_button_title', true));
+    if ($casino_button_title) {
+        return $casino_button_title;
+    } else {
+        if (get_option('casinos_play_now_title')) {
+            return esc_html(get_option('casinos_play_now_title'));
+        } else {
+            return esc_html__('Play Now', 'aces');
+        }
+    }
+}
+
+function get_right_review_statistic_html($overall_rating, $post_id)
+{
+    $html = '';
+    $casino_external_link = esc_url(get_post_meta($post_id, 'casino_external_link', true));
+    $button_title = get_button_title($post_id);
+    $html .= '<div class="review-statistic-right-block">';
+    $html .= get_rating_block_html($overall_rating);
+    $html .= '<span class="overall-rating">Overall Rating</span>';
+    $html .= '<div class="space-casinos-3-archive-item-button-ins  relative rrs-botton">';
+    $html .= '<a href="' . esc_url($casino_external_link) . '" title="' . esc_attr($button_title) . '" class="space-style-2-button" rel="nofollow" target="_blank">' . esc_html($button_title) . '</a>';
+    $html .= '</div>';
+    $html .= '</div>';
+    return $html;
+}
+
+function get_central_review_statistic_html($casino_rating_trust, $casino_rating_games, $casino_rating_bonus, $casino_rating_customer)
+{
+    $html = "";
+    $html .= '<div class="review-statistic-central-block">';
+    $html .= '<table><tbody>';
+    $html .= '<tr class="cb-tr"><td class="central-block-labels">Trust & Fairness</td><td class="cb-td">' . str_replace(" rating", "", get_rating_stars($casino_rating_trust)) . '</td><td><div class="space-companies-sidebar-2-item-rating relative">' . get_rating_stars($casino_rating_trust) . '</div></td></tr>';
+    $html .= '<tr class="cb-tr"><td class="central-block-labels">Bonuses & Promotions</td><td class="cb-td">' . str_replace(" rating", "", get_rating_stars($casino_rating_bonus)) . '</td><td><div class="space-companies-sidebar-2-item-rating relative">' . get_rating_stars($casino_rating_bonus) . '</div></td></tr>';
+    $html .= '<tr class="cb-tr"><td class="central-block-labels">Games & Software</td><td class="cb-td">' . str_replace(" rating", "", get_rating_stars($casino_rating_games)) . '</td><td><div class="space-companies-sidebar-2-item-rating relative">' . get_rating_stars($casino_rating_games) . '</div></td></tr>';
+    $html .= '<tr class="cb-tr"><td class="central-block-labels">Customer Support</td><td class="cb-td">' . str_replace(" rating", "", get_rating_stars($casino_rating_customer)) . '</td><td><div class="space-companies-sidebar-2-item-rating relative">' . get_rating_stars($casino_rating_customer) . '</div></td></tr>';
+    $html .= '</tbody></table>';
+    $html .= '</div>';
+    return $html;
+}
+
+function get_left_review_statistic_html()
+{
+    $html = '';
+    $html .= '<div class="review-statistic-left-block">';
+    $html .= '<table><tbody>';
+    $html .= '<tr><td class="left-block-labels">5 stars</td><td class="cb-progressbar">' . do_shortcode('[wp_progress_bar  pc="85"]') . '</td><td class="central-block-labels">10</td></tr>';
+    $html .= '<tr><td class="left-block-labels">4 stars</td><td class="cb-progressbar">' . do_shortcode('[wp_progress_bar  pc="32"]') . '</td><td class="central-block-labels">10</td></tr>';
+    $html .= '<tr><td class="left-block-labels">3 stars</td><td class="cb-progressbar">' . do_shortcode('[wp_progress_bar  pc="56"]') . '</td><td class="central-block-labels">10</td></tr>';
+    $html .= '<tr><td class="left-block-labels">2 stars</td><td class="cb-progressbar">' . do_shortcode('[wp_progress_bar pc="42"]') . '</td><td class="central-block-labels">10</td></tr>';
+    $html .= '<tr><td class="left-block-labels">1 stars</td><td class="cb-progressbar">' . do_shortcode('[wp_progress_bar pc="42"]') . '</td><td class="central-block-labels">10</td></tr>';
+    $html .= '</tbody></table>';
+    $html .= '</div>';
+    return $html;
+}
+
+function show_casino_review_shortcode($atts)
+{
+    $post_id = $atts['post_id'];
+    $casino_rating_trust = esc_html(get_post_meta($post_id, 'casino_rating_trust', true));
+    $casino_rating_games = esc_html(get_post_meta($post_id, 'casino_rating_games', true));
+    $casino_rating_bonus = esc_html(get_post_meta($post_id, 'casino_rating_bonus', true));
+    $casino_rating_customer = esc_html(get_post_meta($post_id, 'casino_rating_customer', true));
+
+    $casino_ratings = array(
+        $casino_rating_trust,
+        $casino_rating_games,
+        $casino_rating_bonus,
+        $casino_rating_customer
+    );
+    $overall_rating = get_overall_rating_by_casino_ratings($casino_ratings);
+    $html = "";
+    $html .= '<div class="review-statistic-wrapper">';
+    $html .= '<div class="review-statistic-header">';
+    $html .= '<span class="cp-title">Reviews about Captain Cooks casino</span>';
+    $html .= '</div>';
+    $html .= '<div class="review-statistic-content">';
+    $html .= get_right_review_statistic_html($overall_rating, $atts['post_id']);
+    $html .= get_central_review_statistic_html($casino_rating_trust, $casino_rating_games, $casino_rating_bonus, $casino_rating_customer);
+    $html .= get_left_review_statistic_html();
+    $html .= "</div>";
+    $html .= "</div>";
+    echo $html;
+}
+
+add_shortcode("cp-casino-review", "show_casino_review_shortcode");

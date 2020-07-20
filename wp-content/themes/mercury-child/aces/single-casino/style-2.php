@@ -525,8 +525,13 @@ $casino_devices = get_the_terms($post->ID, 'device');
                     )
                 );
 
-                echo get_img_html("casino-bonuses.png", "");
+                echo get_img_html("casino-bonuses.png", "casino-bonuses-img");
+                ?>
+                <div class="cp-review-wrapper">
+                    <?php do_shortcode("[cp-casino-review post_id='$post->ID']")?>
+                </div>
 
+                <?php
                 /*if ($bonus_args) {
                     ?>
 
@@ -556,7 +561,7 @@ $casino_devices = get_the_terms($post->ID, 'device');
 
                 <!-- Related Bonuses End -->
 
-                <?php if (comments_open() || get_comments_number()) : ?>
+                <?php /*if (comments_open() || get_comments_number()) : ?>
 
                     <!-- Comments Start -->
 
@@ -564,7 +569,7 @@ $casino_devices = get_the_terms($post->ID, 'device');
 
                     <!-- Comments End -->
 
-                <?php endif; ?>
+                <?php endif; */?>
 
             </div>
             <div class="space-sidebar-section box-25 right relative">
